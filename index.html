@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-do list</h1>
+        <div class="task-form">
+            <input type="text" id="taskDescription" placeholder="Task description">
+            <input type="date" id="taskDeadline">
+            <select id="taskCategory">
+                <option value="design">Design</option>
+                <option value="development">Development</option>
+                <option value="content">Content</option>
+            </select>
+            <button id="addTask">Add Task</button>
+        </div>
+        <div class="task-list">
+            <h2>Task List</h2>
+            <ul id="tasks">
+                <!-- Tasks will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
